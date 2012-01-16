@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152AFE2014C4A8D7009D20FB /* KLSFallItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 152AFE1D14C4A8D7009D20FB /* KLSFallItem.m */; };
+		152AFE2114C4A8D7009D20FB /* KLSFallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 152AFE1F14C4A8D7009D20FB /* KLSFallView.m */; };
+		152AFE2614C4A8F4009D20FB /* KLSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 152AFE2214C4A8F4009D20FB /* KLSView.m */; };
+		152AFE2714C4A8F4009D20FB /* KLSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 152AFE2414C4A8F4009D20FB /* KLSObject.m */; };
+		1541DA8214BC8579001AAB69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541DA8114BC8579001AAB69 /* UIKit.framework */; };
+		1541DA8414BC8579001AAB69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541DA8314BC8579001AAB69 /* Foundation.framework */; };
+		1541DA8614BC8579001AAB69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541DA8514BC8579001AAB69 /* CoreGraphics.framework */; };
+		1541DA8C14BC857A001AAB69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1541DA8A14BC857A001AAB69 /* InfoPlist.strings */; };
+		1541DA8E14BC857A001AAB69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1541DA8D14BC857A001AAB69 /* main.m */; };
+		1541DA9214BC857A001AAB69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1541DA9114BC857A001AAB69 /* AppDelegate.m */; };
+		1541DA9A14BC857A001AAB69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541DA9914BC857A001AAB69 /* SenTestingKit.framework */; };
+		1541DA9B14BC857A001AAB69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541DA8114BC8579001AAB69 /* UIKit.framework */; };
+		1541DA9C14BC857A001AAB69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541DA8314BC8579001AAB69 /* Foundation.framework */; };
+		1541DAA414BC857A001AAB69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1541DAA214BC857A001AAB69 /* InfoPlist.strings */; };
+		1541DAA714BC857A001AAB69 /* KLSFallDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1541DAA614BC857A001AAB69 /* KLSFallDemoTests.m */; };
+		1541DAB114BC8647001AAB69 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1541DAB014BC8647001AAB69 /* MainWindow.xib */; };
+		1541DADE14BCE91E001AAB69 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541DADD14BCE91E001AAB69 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1541DA9D14BC857A001AAB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1541DA7414BC8579001AAB69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1541DA7C14BC8579001AAB69;
+			remoteInfo = KLSFallDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152AFE1C14C4A8D7009D20FB /* KLSFallItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSFallItem.h; sourceTree = "<group>"; };
+		152AFE1D14C4A8D7009D20FB /* KLSFallItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSFallItem.m; sourceTree = "<group>"; };
+		152AFE1E14C4A8D7009D20FB /* KLSFallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSFallView.h; sourceTree = "<group>"; };
+		152AFE1F14C4A8D7009D20FB /* KLSFallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSFallView.m; sourceTree = "<group>"; };
+		152AFE2214C4A8F4009D20FB /* KLSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSView.m; sourceTree = "<group>"; };
+		152AFE2314C4A8F4009D20FB /* KLSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSView.h; sourceTree = "<group>"; };
+		152AFE2414C4A8F4009D20FB /* KLSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSObject.m; sourceTree = "<group>"; };
+		152AFE2514C4A8F4009D20FB /* KLSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSObject.h; sourceTree = "<group>"; };
+		1541DA7D14BC8579001AAB69 /* KLSFallDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLSFallDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1541DA8114BC8579001AAB69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1541DA8314BC8579001AAB69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1541DA8514BC8579001AAB69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1541DA8914BC857A001AAB69 /* KLSFallDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLSFallDemo-Info.plist"; sourceTree = "<group>"; };
+		1541DA8B14BC857A001AAB69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1541DA8D14BC857A001AAB69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1541DA8F14BC857A001AAB69 /* KLSFallDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLSFallDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1541DA9014BC857A001AAB69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1541DA9114BC857A001AAB69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1541DA9814BC857A001AAB69 /* KLSFallDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLSFallDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1541DA9914BC857A001AAB69 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1541DAA114BC857A001AAB69 /* KLSFallDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLSFallDemoTests-Info.plist"; sourceTree = "<group>"; };
+		1541DAA314BC857A001AAB69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1541DAA514BC857A001AAB69 /* KLSFallDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLSFallDemoTests.h; sourceTree = "<group>"; };
+		1541DAA614BC857A001AAB69 /* KLSFallDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLSFallDemoTests.m; sourceTree = "<group>"; };
+		1541DAB014BC8647001AAB69 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		1541DADD14BCE91E001AAB69 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1541DA7A14BC8579001AAB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1541DADE14BCE91E001AAB69 /* QuartzCore.framework in Frameworks */,
+				1541DA8214BC8579001AAB69 /* UIKit.framework in Frameworks */,
+				1541DA8414BC8579001AAB69 /* Foundation.framework in Frameworks */,
+				1541DA8614BC8579001AAB69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1541DA9414BC857A001AAB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1541DA9A14BC857A001AAB69 /* SenTestingKit.framework in Frameworks */,
+				1541DA9B14BC857A001AAB69 /* UIKit.framework in Frameworks */,
+				1541DA9C14BC857A001AAB69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152AFE1B14C4A8D7009D20FB /* klsfall */ = {
+			isa = PBXGroup;
+			children = (
+				152AFE1C14C4A8D7009D20FB /* KLSFallItem.h */,
+				152AFE1D14C4A8D7009D20FB /* KLSFallItem.m */,
+				152AFE1E14C4A8D7009D20FB /* KLSFallView.h */,
+				152AFE1F14C4A8D7009D20FB /* KLSFallView.m */,
+			);
+			name = klsfall;
+			path = ../../klsfall;
+			sourceTree = "<group>";
+		};
+		1541DA7214BC8579001AAB69 = {
+			isa = PBXGroup;
+			children = (
+				152AFE2214C4A8F4009D20FB /* KLSView.m */,
+				152AFE2314C4A8F4009D20FB /* KLSView.h */,
+				152AFE2414C4A8F4009D20FB /* KLSObject.m */,
+				152AFE2514C4A8F4009D20FB /* KLSObject.h */,
+				152AFE1B14C4A8D7009D20FB /* klsfall */,
+				1541DAB014BC8647001AAB69 /* MainWindow.xib */,
+				1541DA8714BC8579001AAB69 /* KLSFallDemo */,
+				1541DA9F14BC857A001AAB69 /* KLSFallDemoTests */,
+				1541DA8014BC8579001AAB69 /* Frameworks */,
+				1541DA7E14BC8579001AAB69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1541DA7E14BC8579001AAB69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1541DA7D14BC8579001AAB69 /* KLSFallDemo.app */,
+				1541DA9814BC857A001AAB69 /* KLSFallDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1541DA8014BC8579001AAB69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1541DADD14BCE91E001AAB69 /* QuartzCore.framework */,
+				1541DA8114BC8579001AAB69 /* UIKit.framework */,
+				1541DA8314BC8579001AAB69 /* Foundation.framework */,
+				1541DA8514BC8579001AAB69 /* CoreGraphics.framework */,
+				1541DA9914BC857A001AAB69 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1541DA8714BC8579001AAB69 /* KLSFallDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1541DA9014BC857A001AAB69 /* AppDelegate.h */,
+				1541DA9114BC857A001AAB69 /* AppDelegate.m */,
+				1541DA8814BC857A001AAB69 /* Supporting Files */,
+			);
+			path = KLSFallDemo;
+			sourceTree = "<group>";
+		};
+		1541DA8814BC857A001AAB69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1541DA8914BC857A001AAB69 /* KLSFallDemo-Info.plist */,
+				1541DA8A14BC857A001AAB69 /* InfoPlist.strings */,
+				1541DA8D14BC857A001AAB69 /* main.m */,
+				1541DA8F14BC857A001AAB69 /* KLSFallDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1541DA9F14BC857A001AAB69 /* KLSFallDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1541DAA514BC857A001AAB69 /* KLSFallDemoTests.h */,
+				1541DAA614BC857A001AAB69 /* KLSFallDemoTests.m */,
+				1541DAA014BC857A001AAB69 /* Supporting Files */,
+			);
+			path = KLSFallDemoTests;
+			sourceTree = "<group>";
+		};
+		1541DAA014BC857A001AAB69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1541DAA114BC857A001AAB69 /* KLSFallDemoTests-Info.plist */,
+				1541DAA214BC857A001AAB69 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1541DA7C14BC8579001AAB69 /* KLSFallDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1541DAAA14BC857A001AAB69 /* Build configuration list for PBXNativeTarget "KLSFallDemo" */;
+			buildPhases = (
+				1541DA7914BC8579001AAB69 /* Sources */,
+				1541DA7A14BC8579001AAB69 /* Frameworks */,
+				1541DA7B14BC8579001AAB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLSFallDemo;
+			productName = KLSFallDemo;
+			productReference = 1541DA7D14BC8579001AAB69 /* KLSFallDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1541DA9714BC857A001AAB69 /* KLSFallDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1541DAAD14BC857A001AAB69 /* Build configuration list for PBXNativeTarget "KLSFallDemoTests" */;
+			buildPhases = (
+				1541DA9314BC857A001AAB69 /* Sources */,
+				1541DA9414BC857A001AAB69 /* Frameworks */,
+				1541DA9514BC857A001AAB69 /* Resources */,
+				1541DA9614BC857A001AAB69 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1541DA9E14BC857A001AAB69 /* PBXTargetDependency */,
+			);
+			name = KLSFallDemoTests;
+			productName = KLSFallDemoTests;
+			productReference = 1541DA9814BC857A001AAB69 /* KLSFallDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1541DA7414BC8579001AAB69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1541DA7714BC8579001AAB69 /* Build configuration list for PBXProject "KLSFallDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1541DA7214BC8579001AAB69;
+			productRefGroup = 1541DA7E14BC8579001AAB69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1541DA7C14BC8579001AAB69 /* KLSFallDemo */,
+				1541DA9714BC857A001AAB69 /* KLSFallDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1541DA7B14BC8579001AAB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1541DA8C14BC857A001AAB69 /* InfoPlist.strings in Resources */,
+				1541DAB114BC8647001AAB69 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1541DA9514BC857A001AAB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1541DAA414BC857A001AAB69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1541DA9614BC857A001AAB69 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1541DA7914BC8579001AAB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1541DA8E14BC857A001AAB69 /* main.m in Sources */,
+				1541DA9214BC857A001AAB69 /* AppDelegate.m in Sources */,
+				152AFE2014C4A8D7009D20FB /* KLSFallItem.m in Sources */,
+				152AFE2114C4A8D7009D20FB /* KLSFallView.m in Sources */,
+				152AFE2614C4A8F4009D20FB /* KLSView.m in Sources */,
+				152AFE2714C4A8F4009D20FB /* KLSObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1541DA9314BC857A001AAB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1541DAA714BC857A001AAB69 /* KLSFallDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1541DA9E14BC857A001AAB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1541DA7C14BC8579001AAB69 /* KLSFallDemo */;
+			targetProxy = 1541DA9D14BC857A001AAB69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1541DA8A14BC857A001AAB69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1541DA8B14BC857A001AAB69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1541DAA214BC857A001AAB69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1541DAA314BC857A001AAB69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1541DAA814BC857A001AAB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1541DAA914BC857A001AAB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1541DAAB14BC857A001AAB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLSFallDemo/KLSFallDemo-Prefix.pch";
+				INFOPLIST_FILE = "KLSFallDemo/KLSFallDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1541DAAC14BC857A001AAB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLSFallDemo/KLSFallDemo-Prefix.pch";
+				INFOPLIST_FILE = "KLSFallDemo/KLSFallDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1541DAAE14BC857A001AAB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KLSFallDemo.app/KLSFallDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLSFallDemo/KLSFallDemo-Prefix.pch";
+				INFOPLIST_FILE = "KLSFallDemoTests/KLSFallDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1541DAAF14BC857A001AAB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KLSFallDemo.app/KLSFallDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLSFallDemo/KLSFallDemo-Prefix.pch";
+				INFOPLIST_FILE = "KLSFallDemoTests/KLSFallDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1541DA7714BC8579001AAB69 /* Build configuration list for PBXProject "KLSFallDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1541DAA814BC857A001AAB69 /* Debug */,
+				1541DAA914BC857A001AAB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1541DAAA14BC857A001AAB69 /* Build configuration list for PBXNativeTarget "KLSFallDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1541DAAB14BC857A001AAB69 /* Debug */,
+				1541DAAC14BC857A001AAB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1541DAAD14BC857A001AAB69 /* Build configuration list for PBXNativeTarget "KLSFallDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1541DAAE14BC857A001AAB69 /* Debug */,
+				1541DAAF14BC857A001AAB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1541DA7414BC8579001AAB69 /* Project object */;
+}
